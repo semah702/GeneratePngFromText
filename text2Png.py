@@ -8,7 +8,8 @@ font = ImageFont.truetype(font_path, 36)
 text = "Hello, world!"
 text_color = (255, 192, 203) # Pembe
 text_position = (0,0)
-text_width, text_height = font.getsize(text) # Text boyutu
+text_width = font.getbbox(text)[2] # Yazı genişliği
+text_height = font.getbbox(text)[3] # Yazı yüksekliği
 
 # Yeni bir resim oluştur ve üzerine texti ekle
 background_plan = (255, 255, 255, 0) # Şeffaf arkaplan
