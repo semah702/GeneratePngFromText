@@ -1,4 +1,4 @@
-# write-text-with-python
+# Generate PNG from Text
 Generate PNG file from Text.
 
 ## Installation
