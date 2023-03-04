@@ -12,9 +12,17 @@ pip install Pillow
 ## Usage
 
 ```python
+from text2Png import text2png
+
 text = "Hello, world!" # You can change text here.
+font_path = "ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf" # You can change font here.
+
+# Save to PNG
+image = text2png(text, font_path)
+image.save('text.png')
 ```
-After run ```text2Png.py``` file.
+
+*You can use the example in the ```run.py``` file.*
 
 ## Contributing
 
